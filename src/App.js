@@ -1,25 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
 
+//HTML
+//Mark up
+//<div> <p> hello world </p> </div>
+
+
+//CSS
+//꾸미기 언어
+
+
+<input/>;
+
+
+
 function App() {
+  Const [todos, setTodos] = useState([]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>TODO LIST</h1>
+      <div>
+        <input />
+        <button>ADD</button>
+      </div>
     </div>
-  );
-}
+    </div>
+  )
+};
 
 export default App;
