@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding: 0 40px;
+  color: beige;
 }
 
 .App-logo {
@@ -35,4 +37,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header {
+  font-size: x-large;
+  color: darkslategrey
+}
+
+.filter-container {
+display: flex;
+justify-content:space-between;
+font-size: medium;
+color: darkolivegreen;
+}
+
+.add-input-container {
+  margin-block: 20px;
+  width: 40%;
+  height: 5px;
+  padding: 10px 20px;
+  justify-content:center;
+  color: dimgray;
+  border-radius: 5px;
+ display: inline;
+}
+
+.todo-list-container {
+  color: lightslategray;
+  background-color: seashell;
+  border: 1px;
+  justify-content: space-between ;
+  width: 100%;
+  text-align:center ;
 }
